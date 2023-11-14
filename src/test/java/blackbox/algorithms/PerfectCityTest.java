@@ -3,7 +3,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
-public class PerfectCityTest {
+class PerfectCityTest {
 	
 	@Test
     void testSolution() {
@@ -18,5 +18,6 @@ public class PerfectCityTest {
         expectedOutput = 7.7;
         assertEquals(expectedOutput, actualOutput, 0.01, "The solution function should calculate the correct second distance.");
     }
+	
 }
 
