@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LosslessDataCompression {
-
+ 
 	public static String[] solution(String[] emails) {
 		List<String> result = new ArrayList<>();
 		int i = 0;
